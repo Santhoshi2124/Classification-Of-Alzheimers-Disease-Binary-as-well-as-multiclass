@@ -18,7 +18,7 @@ The application uses a **Microservices** approach to run the prediction engine a
 * **Explainable AI (XAI):** The "Most Recent Analysis" section displays a **Feature Importance Bar Chart** showing the top factors from the CSV data that influenced the model's decision.
 * **Patient Management (CRUD):** Secure, authenticated system to create, view, update, and delete patient records.
 * **PDF Reporting:** Generates a clean, downloadable PDF report of the patient's diagnostic results and history.
-* **AI Chat Assistant (Offline Mode):** A reliable, local logic-based assistant to provide immediate answers regarding symptoms, care, and medication, without crashing due to external API dependencies.
+* **AI Chat Assistant :** A reliable, local logic-based assistant using RAG LLMs to provide immediate answers regarding symptoms, care, and medication, without crashing due to external API dependencies.
 * **Dynamic Theming:** Includes a Light/Dark mode toggle for user preference.
 
 ---

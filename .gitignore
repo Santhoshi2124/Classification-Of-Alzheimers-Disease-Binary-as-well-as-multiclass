@@ -1,0 +1,71 @@
+# --- NodeJS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# --- React (Vite) Frontend ---
+dist/
+.cache/
+.vite/
+vite.config.ts.timestamp*
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# --- ML Models & Large Files ---
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.joblib
+*.bin
+*.model
+
+# --- FAISS Index ---
+*.index
+faiss.index
+faiss_docs.json
+
+# --- Datasets ---
+*.csv
+*.tsv
+*.xlsx
+*.jsonl
+
+# BUT keep schema files
+!schemas.py
+
+# --- Logs ---
+*.log
+logs/
+debug.log
+
+# --- Environment Variables ---
+.env
+.env.*
+!.env.example
+
+# --- Cache & Build Directories ---
+__cache__/
+.cache/
+.tmp/
+temp/
+tmp/
+
+# --- OS/System files ---
+.DS_Store
+Thumbs.db
+
+# --- VSCode ---
+.vscode/

@@ -119,7 +119,7 @@ const Chatbot = () => {
 
       const response = await axios.post('http://127.0.0.1:5001/message', {
         text: input,
-        sender_name: userName 
+        user_id: user?.email
       });
 
       const botText = response.data.response || "I received your message.";
